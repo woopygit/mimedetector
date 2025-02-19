@@ -1,0 +1,25 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "mimedetector"
+version = "0.1.0"
+authors = [
+  { name="Il tuo nome", email="tua@email.com" },
+]
+description = "Una libreria Python per rilevare il tipo MIME di file locali e URL remoti"
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "requests>=2.25.1"
+]
+
+[project.urls]
+"Homepage" = "https://github.com/username/mimedetector"
+"Bug Tracker" = "https://github.com/username/mimedetector/issues"
